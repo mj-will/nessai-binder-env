@@ -1,4 +1,7 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable splitcell/splitcell
 jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter nbextension install --py hide_code --user
+jupyter nbextension enable --py hide_code
+jupyter serverextension enable --py hide_code
 
