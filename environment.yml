@@ -1,0 +1,25 @@
+name: nessai-environment
+channels:
+  - default
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scipy>=0.16
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pytorch>=1.7.0
+  - torchvision
+  - cpuonly
+  - tensorboard
+  - rise
+  - bilby
+  - nbgitpuller
+  - pip:
+    - nflows
+    - nessai>=0.4.0
+    - jupyter-contrib-nbextensions
