@@ -16,11 +16,7 @@ dependencies:
   - torchvision
   - cpuonly
   - tensorboard
-  - rise
-  - bilby
-  - nbgitpuller
+  - corner
   - pip:
     - nflows
-    - nessai>=0.4.0
-    - jupyter-contrib-nbextensions
-    - hide_code
+    - nessai>=0.6.0
