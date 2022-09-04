@@ -17,6 +17,7 @@ dependencies:
   - cpuonly
   - tensorboard
   - corner
+  - nbgitpuller
   - pip:
     - nflows
     - nessai>=0.6.0
