@@ -18,6 +18,12 @@ dependencies:
   - tensorboard
   - corner
   - nbgitpuller
+  - bilby
+  - astropy>=5
+  - lalsuite
+  - gwpy
+  - tables
+  - pyfftw
   - pip:
     - nflows
     - nessai>=0.6.0
