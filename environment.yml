@@ -22,7 +22,7 @@ dependencies:
   - astropy>=5
   - lalsuite
   - gwpy
-  - tables
+  - pytables
   - pyfftw
   - pip:
     - nflows
