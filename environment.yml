@@ -12,10 +12,9 @@ dependencies:
   - matplotlib
   - seaborn
   - tqdm
-  - pytorch>=1.7.0
-  - torchvision
+  - pytorch>=1.11.0
   - cpuonly
-  - tensorboard
+  - nessai>=0.7.0
   - corner
   - nbgitpuller
   - bilby
@@ -24,6 +23,3 @@ dependencies:
   - gwpy
   - pytables
   - pyfftw
-  - pip:
-    - nflows
-    - nessai>=0.6.0
