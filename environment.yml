@@ -4,7 +4,7 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - numpy
   - pandas
@@ -14,7 +14,7 @@ dependencies:
   - tqdm
   - pytorch>=1.11.0
   - cpuonly
-  - nessai>=0.7.0
+  - nessai>=0.12.0
   - corner
   - nbgitpuller
   - bilby
